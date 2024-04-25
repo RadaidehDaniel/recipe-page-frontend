@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: hsl(30, 54%, 90%);
+  color: #5f564d;
+}
+
+article {
+  background-color: white;
+  min-width: 32rem;
+  max-width: 73.6rem;
+  margin: 12.3rem auto;
+  padding: 4rem;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.header-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.header h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  line-height: 100%;
+  font-style: normal;
+  font-size: 4rem;
+  color: #312e2c;
+  margin-bottom: 2.4rem;
+}
+
+.header p {
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.preparation {
+  background-color: #fff7fb;
+  padding: 2.8rem;
+  border-radius: 12px;
+}
+
+.preparation p {
+  color: #7a284e;
+  font-size: 2rem;
+  line-height: 100%;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.preparation ul {
+  margin-left: 2.8rem;
+}
+
+.preparation ul li {
+  color: #5f564d;
+  font-size: 1.6rem;
+  line-height: 150%;
+  padding-left: 1.6rem;
+}
+
+.preparation ul li:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.preparation ul li span {
+  font-weight: 700;
+}
+
+.preparation ul li::marker {
+  color: #7a284e;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: #854632;
+  line-height: 100%;
+  font-size: 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.ingredients ul {
+  margin-left: 2.4rem;
+}
+
+.ingredients ul li {
+  color: #5f564d;
+  font-size: 1.6rem;
+  line-height: 150%;
+  padding-left: 1.6rem;
+}
+
+.ingredients ul li::marker {
+  color: #7a284e;
+}
+
+.ingredients ul li:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.instructions ol {
+  margin-left: 2.4rem;
+}
+
+.instructions ol li {
+  color: #5f564d;
+  font-size: 1.6rem;
+  line-height: 150%;
+  padding-left: 1.6rem;
+}
+
+.instructions ol li::marker {
+  color: #7a284e;
+}
+
+.instructions ol li span {
+  font-weight: 700;
+}
+
+.instructions ol li:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.separator {
+  background: #e3ddd7;
+  height: 1px;
+}
+
+.nutrition p {
+  color: #5f564d;
+  font-size: 1.6rem;
+  line-height: 150%;
+  margin-bottom: 2.4rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr td:nth-child(1) {
+  color: #5f564d;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+table tr td:nth-child(2) {
+  color: #854632;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+table tr {
+  height: 4.2rem;
+}
+
+table tr:not(:last-child) {
+  border-bottom: #e3ddd7 solid 1px;
+}
+
+@media screen and (max-width: 375px) {
+  article {
+    margin: 0;
+    padding: 0 3.2rem;
+    border-radius: 0;
+    padding-bottom: 4rem;
+  }
+
+  .header-img {
+    width: 125%;
+    border-radius: 0;
+  }
+
+  .header h1 {
+    font-size: 3.6rem;
+  }
+
+  .preparation {
+    padding: 2.4rem;
+  }
+}
